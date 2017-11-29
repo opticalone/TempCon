@@ -21,6 +21,19 @@ public:
 	bool empty() const;
 	int front() const;
 	int back() const;
+
+	int &operator[](size_t idx);
+	int operator[](size_t idx)const;
+
+	int clear();
+	int erase(int idx);
+	int count(int match);
+
+	void insert(size_t idx, int value);
+	void reserve(size_t newcapacity);
+	void Compact();
+	void printVector();
+
 private:
 	bool grow(size_t miniSize);
 };
