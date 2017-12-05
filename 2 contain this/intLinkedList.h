@@ -8,6 +8,7 @@ class intLinkedList
 
 		int value;
 		intLinkedListNode* next;
+		intLinkedListNode* prev;
 	};
 public:
 	
@@ -20,8 +21,9 @@ public:
 	bool empty() const;
 	int front() const;
 	int back() const;
-	int clear() const;
+	void clear() const;
 	int count() const;
+	void insert(size_t idx, int value);
 
 
 private:

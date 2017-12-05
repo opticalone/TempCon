@@ -1,18 +1,17 @@
 #include "intVector.h"
 #include "test.h"
 #include "intLinkedList.h"
-
+#include "algo.h"
+#include <iostream>
+#include "ITERATE.h"
+#include "queueueueueueueueueueueueh.h"
 int main()
 {
+	int num[] = { 1,3,5,7,9 };
 
-	intLinkedList nums;
-	nums.append(1);
-	nums.append(2);
-	nums.append(3);
-	nums.append(4);
-	nums.append(5);
-
-
+	
+	
+	std::cout << num;
 
 	/*intVector nums;
 	nums.append(1);
@@ -32,5 +31,7 @@ int main()
 	assertEqual(nums.front(), 1);
 	assertEqual(nums.back(), 33);
 		
-	*/
+
+		*/
+	while (true);
 }

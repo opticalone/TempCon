@@ -1,3 +1,6 @@
+#include "ITERATE.h"
+#include <cassert>
+#include <cstring>
 
 #pragma once
 
@@ -21,6 +24,16 @@ public:
 	~tVector()
 	{
 		delete[] data;
+	}
+
+	iterator<tVector<G>> begin()
+	{
+		return iterator<G>(*this, 0);
+	}
+
+	iterator<tVector<G>> end()
+	{
+		return iterator<tVector<G>>(*this, size);
 	}
 
 	G& at(size_t idx)
