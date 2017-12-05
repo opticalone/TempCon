@@ -78,7 +78,7 @@ int intVector::operator[](size_t idx) const
 
 int intVector::clear()
 {
-	size =0;
+	return size =0;
 }
 
 int intVector::erase(int idx)
@@ -88,7 +88,7 @@ int intVector::erase(int idx)
 		data[idx + i] = data[idx + i + 1];
 		
 	}
-	size -= 1;
+	return size -= 1;
 }
 
 int intVector::count(int match)

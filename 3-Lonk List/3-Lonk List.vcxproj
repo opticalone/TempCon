@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{90B6649A-6ECA-4E7D-9FC6-F97050DEB32A}</ProjectGuid>
-    <RootNamespace>My2containthis</RootNamespace>
+    <ProjectGuid>{0005DF55-A6B7-4358-ACB1-B1C893C7758E}</ProjectGuid>
+    <RootNamespace>My3LonkList</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,15 +110,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="intLinkListNode.cpp" />
-    <ClCompile Include="intVector.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="intLinkedList.h" />
-    <ClInclude Include="intVector.h" />
-    <ClInclude Include="test.h" />
-    <ClInclude Include="tVec.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

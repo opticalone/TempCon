@@ -1,8 +1,20 @@
 #include "intVector.h"
 #include "test.h"
+#include "intLinkedList.h"
+
 int main()
 {
-	intVector nums;
+
+	intLinkedList nums;
+	nums.append(1);
+	nums.append(2);
+	nums.append(3);
+	nums.append(4);
+	nums.append(5);
+
+
+
+	/*intVector nums;
 	nums.append(1);
 	nums.append(5);
 
@@ -20,5 +32,5 @@ int main()
 	assertEqual(nums.front(), 1);
 	assertEqual(nums.back(), 33);
 		
-	
+	*/
 }
